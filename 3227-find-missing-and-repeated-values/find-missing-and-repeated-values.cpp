@@ -1,25 +1,19 @@
 class Solution {
 public:
     vector<int> findMissingAndRepeatedValues(vector<vector<int>>& grid) {
-        int n = grid.size();
-        int rep=-1,miss=-1;
-        unordered_set <int> st;
+        
+        int n = grid.size(); int N =n*n;
+        int rep=0,miss=0;
+
+        vector <int> frq(N+1,0);
 
         for (auto & row: grid){
-            for(auto x: row){
-                if (st.contains(x)){
-                    rep=x;
-                }
-                else st.insert(x);
-            }
+            for(auto x: row) frq[x]++;
         }
 
-        int N =n*n;
         for(int i = 1; i<=N; i++){
-            if (!st.contains(i)) {
-            miss = i;
-            break;
-            }
+            if (frq[i]==2) rep=i;
+            if (frq[i]==0) miss=i;
         }
 
         return {rep,miss};
