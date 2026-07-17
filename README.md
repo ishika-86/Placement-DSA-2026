@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 32 | 10 |
+| 40 | 14 |
 
 ---
 
@@ -14,14 +14,18 @@
 
 - [*special](#special) (1)
 - [brute force](#brute-force) (5)
-- [constructive algorithms](#constructive-algorithms) (1)
-- [graph matchings](#graph-matchings) (1)
-- [greedy](#greedy) (5)
-- [implementation](#implementation) (25)
-- [math](#math) (6)
+- [constructive algorithms](#constructive-algorithms) (2)
+- [dfs and similar](#dfs-and-similar) (2)
+- [dp](#dp) (1)
+- [graph matchings](#graph-matchings) (2)
+- [greedy](#greedy) (10)
+- [implementation](#implementation) (26)
+- [math](#math) (9)
+- [number theory](#number-theory) (2)
 - [shortest paths](#shortest-paths) (1)
-- [sortings](#sortings) (1)
+- [sortings](#sortings) (3)
 - [strings](#strings) (8)
+- [two pointers](#two-pointers) (1)
 
 ---
 
@@ -46,21 +50,41 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 266B | [Queue at the School](https://codeforces.com/contest/266/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/266/B%20-%20Queue%20at%20the%20School/solution.cpp) |
+| 2241B | [Good times Good times](https://codeforces.com/contest/2241/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/2241/B%20-%20Good%20times%20Good%20times/solution.cpp) |
+
+### dfs and similar
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 489B | [BerSU Ball](https://codeforces.com/contest/489/problem/B) | 1200 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/489/B%20-%20BerSU%20Ball/solution.cpp) |
+| 2241B | [Good times Good times](https://codeforces.com/contest/2241/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/2241/B%20-%20Good%20times%20Good%20times/solution.cpp) |
+
+### dp
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 489B | [BerSU Ball](https://codeforces.com/contest/489/problem/B) | 1200 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/489/B%20-%20BerSU%20Ball/solution.cpp) |
 
 ### graph matchings
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 266B | [Queue at the School](https://codeforces.com/contest/266/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/266/B%20-%20Queue%20at%20the%20School/solution.cpp) |
+| 489B | [BerSU Ball](https://codeforces.com/contest/489/problem/B) | 1200 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/489/B%20-%20BerSU%20Ball/solution.cpp) |
 
 ### greedy
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 50A | [Domino piling](https://codeforces.com/contest/50/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/50/A%20-%20Domino%20piling/solution.cpp) |
+| 160A | [Twins](https://codeforces.com/contest/160/problem/A) | 900 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/160/A%20-%20Twins/solution.cpp) |
 | 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/231/A%20-%20Team/solution.cpp) |
 | 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.cpp) |
+| 489B | [BerSU Ball](https://codeforces.com/contest/489/problem/B) | 1200 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/489/B%20-%20BerSU%20Ball/solution.cpp) |
 | 1486A | [Shifting Stacks](https://codeforces.com/contest/1486/problem/A) | 900 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/1486/A%20-%20Shifting%20Stacks/solution.cpp) |
+| 2240A | [Another Popcount Problem](https://codeforces.com/contest/2240/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/2240/A%20-%20Another%20Popcount%20Problem/solution.cpp) |
+| 2241A | [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/2241/A%20-%20Divide%20and%20Conquer/solution.cpp) |
+| 2241C | [RemovevomeR](https://codeforces.com/contest/2241/problem/C) | 1000 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/2241/C%20-%20RemovevomeR/solution.cpp) |
 | 2245A | [Who Watches the Watchpig?](https://codeforces.com/contest/2245/problem/A) | Unrated | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/2245/A%20-%20Who%20Watches%20the%20Watchpig%3F/solution.cpp) |
 
 ### implementation
@@ -91,6 +115,7 @@
 | 734A | [Anton and Danik](https://codeforces.com/contest/734/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/734/A%20-%20Anton%20and%20Danik/solution.cpp) |
 | 791A | [Bear and Big Brother](https://codeforces.com/contest/791/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/791/A%20-%20Bear%20and%20Big%20Brother/solution.cpp) |
 | 977A | [Wrong Subtraction](https://codeforces.com/contest/977/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/977/A%20-%20Wrong%20Subtraction/solution.cpp) |
+| 1030A | [In Search of an Easy Problem](https://codeforces.com/contest/1030/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/1030/A%20-%20In%20Search%20of%20an%20Easy%20Problem/solution.cpp) |
 | 1486A | [Shifting Stacks](https://codeforces.com/contest/1486/problem/A) | 900 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/1486/A%20-%20Shifting%20Stacks/solution.cpp) |
 
 ### math
@@ -103,6 +128,16 @@
 | 486A | [Calculating Function](https://codeforces.com/contest/486/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/486/A%20-%20Calculating%20Function/solution.cpp) |
 | 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.cpp) |
 | 617A | [Elephant](https://codeforces.com/contest/617/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/617/A%20-%20Elephant/solution.cpp) |
+| 2195A | [Sieve of Erato67henes](https://codeforces.com/contest/2195/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/2195/A%20-%20Sieve%20of%20Erato67henes/solution.cpp) |
+| 2241A | [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/2241/A%20-%20Divide%20and%20Conquer/solution.cpp) |
+| 2241B | [Good times Good times](https://codeforces.com/contest/2241/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/2241/B%20-%20Good%20times%20Good%20times/solution.cpp) |
+
+### number theory
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2195A | [Sieve of Erato67henes](https://codeforces.com/contest/2195/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/2195/A%20-%20Sieve%20of%20Erato67henes/solution.cpp) |
+| 2241A | [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/2241/A%20-%20Divide%20and%20Conquer/solution.cpp) |
 
 ### shortest paths
 
@@ -114,7 +149,9 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 160A | [Twins](https://codeforces.com/contest/160/problem/A) | 900 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/160/A%20-%20Twins/solution.cpp) |
 | 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.cpp) |
+| 489B | [BerSU Ball](https://codeforces.com/contest/489/problem/B) | 1200 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/489/B%20-%20BerSU%20Ball/solution.cpp) |
 
 ### strings
 
@@ -128,6 +165,12 @@
 | 281A | [Word Capitalization](https://codeforces.com/contest/281/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/281/A%20-%20Word%20Capitalization/solution.cpp) |
 | 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.cpp) |
 | 734A | [Anton and Danik](https://codeforces.com/contest/734/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/734/A%20-%20Anton%20and%20Danik/solution.cpp) |
+
+### two pointers
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 489B | [BerSU Ball](https://codeforces.com/contest/489/problem/B) | 1200 | [C++20 (GCC 13-64)](https://github.com/ishika-86/Placement-DSA-2026/blob/HEAD/489/B%20-%20BerSU%20Ball/solution.cpp) |
 
 ---
 
