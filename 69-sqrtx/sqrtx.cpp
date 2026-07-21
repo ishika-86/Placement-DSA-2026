@@ -1,6 +1,10 @@
 class Solution {
 public:
     int mySqrt(int x) {
-        return pow(x, 0.5);
+    int ans=0;
+    for(long long i=0; i*i<=x; i++){
+        ans = i;
+    }
+    return ans;
     }
 };
