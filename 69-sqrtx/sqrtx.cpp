@@ -1,9 +1,12 @@
 class Solution {
 public:
     int mySqrt(int x) {
-    int ans=0;
-    for(long long i=0; i*i<=x; i++){
-        ans = i;
+    int l=0, r=x,  ans=0;
+    while(l<=r){
+        int m =l+(r-l)/2;
+        if((long long)m*m==x) {return m;}
+        else if ((long long)m*m>x) r =m-1;
+        else {l=m+1; ans = m;}
     }
     return ans;
     }
