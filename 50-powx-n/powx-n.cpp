@@ -1,16 +1,16 @@
 class Solution {
 public:
+    using ll = long long;
+    double solve(double x, ll n){
+        if(n==0) return 1.0;
+        double half = solve(x,n/2);
+        if(n%2==0) return half*half;
+        else return x*half*half;
+    }
     double myPow(double x, int n) {
-        long long power = n;
-        if(power<0){
-            x=1/x;
-            power = -power;
-        }
-        double ans = 1;
-        while(power){
-            if(power%2) ans *= x;
-            x*=x; power/=2;
-        }
-        return ans;
+        ll N=n;
+        if(N<0) return 1.0/solve(x,-N);
+
+        return solve(x,N);
     }
 };
