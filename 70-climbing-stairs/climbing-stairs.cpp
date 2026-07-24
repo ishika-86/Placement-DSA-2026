@@ -1,12 +1,16 @@
-using ll =long long;
-class Solution {
-public:
 
-    int solve(int n, ll a, ll b){
-        if(n==0) return a;
-        return solve(n-1, b, a+b);
-    }
+class Solution {
+    using ll =long long;
+public:
     int climbStairs(int n) {
-        return solve(n,1,1);
+        if(n<=2) return n;
+        ll a = 1, b = 2;
+
+        for(int i=3; i<=n; i++){
+            ll ans=a+b;
+            a=b; b=ans;
+        }
+        return b;
+
     }
 };
