@@ -1,29 +1,16 @@
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
-        unordered_map<string, vector<string>> ans;
-
-        for (string& s : strs) {
-            array<int, 26> count = {0};
-
-            // Count frequency of each letter in the string
-            for (char c : s) {
-                count[c - 'a']++;
-            }
-
-            string key;
-            for (int num : count) {
-                key += to_string(num) + "#";
-            }
-
-            ans[key].push_back(s);
+        unordered_map<string,vector<string>> mp;
+        for(string &s: strs ){
+            string t = s;
+            sort(t.begin(), t.end());
+            mp[t].push_back(s);
         }
-
-        vector<vector<string>> result;
-        for (auto& entry : ans) {
-            result.push_back(move(entry.second));
+        vector<vector<string>> res;
+        for (auto& e : mp) {
+            res.push_back(e.second);
         }
-
-        return result;        
+        return res;   
     }
 };
