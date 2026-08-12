@@ -5,7 +5,7 @@ public:
         for(int i=0; i<nums.size(); i++){
             if(st.count(nums[i])) return true;
             st.insert(nums[i]);
-            if(i>=k) st.erase(nums[i-k]);//keep only last k elments
+            if(i>=k) st.erase(nums[i-k]); // Remove element that is now outside the window
         }
         return false;
     }
